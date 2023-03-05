@@ -26,8 +26,7 @@ btn_sleep.onclick = function () {
 
         const hours = future.getHours();
         const minutes = future.getMinutes();
-        const seconds = future.getSeconds();
-        time_sleep[i].innerText = `${hours}:${minutes}:${seconds}`;
+        time_sleep[i].innerText = `${hours}:${minutes}`;
     }
 }
 setInterval(updateTime);
